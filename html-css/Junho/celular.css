@@ -6,12 +6,11 @@
 }
 
 body{     
-    background: url(../Junho/EX\ CELULAR/);
+    background: url(file:///C:/Users/wesley.dmsantos4/Documents/GitHub/davesenac/html-css/Junho/EX%20CELULAR/fundo-madeira.jpg);
     font-family: Arial, Helvetica, sans-serif;
     width: 100vw;
     height: 100vh;
     position: relative;
-    background-image: url(../imagens/imagens/fundo-madeira.jpg);
     background-size: cover;
 
 }
