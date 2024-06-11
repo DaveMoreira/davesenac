@@ -1,0 +1,147 @@
+*{ margin: 0;
+   padding: 0;
+    
+}
+
+body{background: url(fundo1.png) no-repeat
+    center center;
+    background-size: cover;
+    height: 92vh;
+    background-attachment:fixed;
+
+    
+     
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    }
+    
+   
+             
+   
+    
+    .logo{
+      font-size: 24px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+    padding-right: 0px;
+    }
+    
+    nav { display: flex;       /*logo e lista um do lado do outro*/
+          justify-content: space-around; 
+          align-items: center;
+          font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+          font-weight: bold; 
+          background-color: rgba(0, 0, 0, 0.61);
+          height: 8vh;
+          
+    
+    }
+    .nav-list{
+    list-style: none;
+    display: inline-flex;
+  margin-right: 60px;
+    
+    }
+    .nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    padding-left: 30px;
+    
+    }
+    a:hover{
+        background-color: #c9ceca60; 
+        opacity: 10;
+          
+    }
+  
+main{ 
+    width: 100%;
+    height: 100%;
+    
+    
+}
+   
+.logo1{
+background-color: blueviolet;
+border: solid black 5px;
+
+
+}
+ img{
+    margin-top: 0px;
+
+ }  
+
+ form {
+  font-family: Arial, sans-serif;
+  color: black;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 0px solid #ccc;
+
+}
+
+.fale{
+  background-color: black;
+  text-align: center; color: blanchedalmond;
+  max-width: 1000px;
+  
+}
+
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  
+}
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+main{
+    max-width: 800px; /* Responsividade */
+    min-width:320px; /* Responsividade */ 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    padding: 50px;
+    border-radius: 50px;
+    
+  }
+tbody{ background-color: rgba(0, 12, 0, 0.555);
+display: block;
+margin-left: 500px;
+margin-top: 70px;
+color: white;
+width: 300px;
+}
+caption{font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: thistle;
+  width: 300px;
+}
+td{ text-align: center;
+  padding-left: 50px;
+
+}

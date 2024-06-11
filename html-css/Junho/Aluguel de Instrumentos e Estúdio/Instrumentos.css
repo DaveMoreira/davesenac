@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-color: rgb(30, 49, 49);
+background-size: cover;
+height: 100vh;
+margin:auto 150px;
+}
+
+main{ 
+  background:url(white-crinkled-paper-texture-background.jpg)no-repeat center center ;
+  background-size: cover;
+  height: 100vh;   
+}
+
+
+
+    
+ .menu{ 
+  background-color: rgb(22, 20, 22);
+  width: 13%;
+  display: inline-block;
+  padding:10px;
+  margin-bottom: 500px;
+ }
+
+.conteudo{
+  width: 70%;
+  display: inline-block;
+  paddin: 10px;
+}
+
+ul{
+  display: inline-block;
+  list-style: none;
+  color: white;
+  font-size: 20px;
+
+}
+
+article{ 
+  background-color: blue;
+  color: crimson;
+  display: inline flex;
+  width: 150px;  
+        
+
+}
+
+article > img {
+  width: 150px;
+  height:150px;
+}
+
+article > p{
+  text-align: center;
+}
+
+ 
+    header{ background-color: rgb(30, 49, 49);
+
+    }
+    .loguinhoi{ padding-top: 20px;
+      
+      margin-left: 20px;
+      display:inline-block;
+      
+      
+}
+.loguinhoi2{ 
+  display: inline-block ;
+  margin-left: 1100px;
+   
+}
+h3{  text-align: center;
+  padding-top: 0px;
+  color: white;
+
+}
+   
+    a:hover{
+        background-color: #c9ceca60; 
+        opacity: 10;
+          
+    }
+
+

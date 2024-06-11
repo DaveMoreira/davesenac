@@ -1,0 +1,33 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    
+    }
+
+    body{
+    background: url("texturapreto2.jpg") no-repeat
+    center center;
+    background-size: cover;
+    height: 92vh;
+   
+    }
+
+main{ 
+    background-color: rgba(0, 0, 0, 0.644);
+    width: 100%;
+    width: 50%; 
+    height: 50%;
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-top: 200px;
+
+ 
+
+}
+
+form{
+ color: white;
+ padding-left: 400px;
+ padding-top: 100px;
+}

@@ -1,0 +1,158 @@
+@charset "UTF-8"
+
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=LXGW+WenKai+Mono+TC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Reem+Kufi+Fun:wght@400..700&display=swap');
+
+@font-face{
+    font-family: 'Android';
+    src: url('idroid.otf') format('opentype'), url('idroid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+:root{ --cor1:#1a110e;
+       --cor2:#4E051C;
+       --cor3:#f7114b8c;
+       --cor4:#998a1c;
+       --cor5:#BCB7AB;
+       --fontehonk:"Honk", system-ui;
+       --fontwenkai:"LXGW WenKai Mono TC", monospace;
+       --fonth1:"Reem Kufi Fun", sans-serif;
+       --fonteidroid:"Android";
+}
+
+
+
+
+body{    
+    background: var(--cor4);
+    max-width: 100%;
+    }
+
+    .navegacao{ background-color: var(--cor4);
+
+    }
+
+
+main{    background-color: rgba(209, 171, 120, 0.527);
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 80px;
+    
+}
+h1{font-family: var(--fonth1);
+    font-size:40px;
+    text-align: center;
+    font-style: Bold;
+}
+p{    font-family: var(--fontwenkai);
+    text-align: center;
+}
+
+.inicio{
+    width: 70px;
+    height: 20px;
+    padding-left: 10px;
+    margin-left: 400px;
+    
+
+
+}
+.noticias{
+    width: 130px;
+    padding-left: 50px;
+    height: 20px;
+    margin-top: 40px;
+}
+.faleconosco{
+    width: 200px;
+    height: 20px;
+    padding-left: 50px;
+    
+}
+
+.iconesnav{ margin-top: 70px;
+            text-align: center;
+            padding-left: 100px;
+
+}
+
+
+
+
+a{
+    font-family:var(--fonteidroid);
+    padding-left: 0px;
+    color: var(--cor2);
+    text-decoration: none;
+    border: 
+}
+
+
+
+
+
+    .iconesnav> a:hover {
+        background-color: var(--cor3);
+    }
+
+.aside1{ background-color: var(--cor5);
+    margin-left: 500px;
+    margin-right: 500px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    margin-top: 50px;}
+
+    .aside1li{
+    list-style-type: none;
+    font-family: var(--fontwenkai);
+    text-align: center;
+
+    }
+    
+
+
+    
+.aside2{ background-color: #F7114B;
+    list-style-type: none;
+    text-align: center;
+    columns: 1;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    font-family: var(--fontwenkai);
+    margin-bottom: 100px;
+    
+}
+
+
+main img{
+max-width:100% ;
+margin-top: 20px;}
+
+
+.video{
+  display: inline-flex;
+ }
+ .navegacao{
+       display: inline-flex;
+ }
+
+ .logo{
+    padding-left: 150px;
+    padding-top: 10px;
+
+
+ }

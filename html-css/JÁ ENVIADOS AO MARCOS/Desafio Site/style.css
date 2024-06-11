@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+*{ margin: 0;
+    padding: 0;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+
+
+body{ background: url(TESTE.png) ;
+    background-size: cover;
+    height: 92vh;
+
+}
+.menu{  display:inline ;
+    padding-left: 300px;
+    padding-top: 20px;
+
+
+   
+}
+
+a{ text-decoration:none;
+   display: inline; 
+   padding-right: 0px;
+   font-family:'Roboto', sans-serif;
+   color: white ;
+   font-size: 30px;
+   margin-right: 150px;
+   
+   
+   
+}
+
+a:hover{
+    background-color: rgba(7, 124, 33, 0.842);
+
+
+}
+nav{ display: inline-flex;
+
+
+}
+
+main{ 
+    background-color: blueviolet;
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 50px;
+
+
+}
+
+p{ font-size: 20px;
+
+}
+.Botsaibamais{
+    background-color: brown;
+    display: inline  ;
+    text-align: center 200px;
+    border: solid 2px black;
+    border-radius: 5px;
+
+}
+main h3{ font-size: 60px;
+    color: black;
+
+
+}
+p main{
+    font-size: 70px;
+text-align: center;
+
+
+    }
