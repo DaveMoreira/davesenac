@@ -13,28 +13,49 @@ body{
     position: relative;
     background-size: cover;
 }
+
+
+
 main{ 
-    background-image: url(EX\ CELULAR/frame-iphone.png);
-      font-family: Arial, Helvetica, sans-serif;
-      position: relative;
-      top:50%;
+    background: url(EX\ CELULAR/frame-iphone.png);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top:50%;
       left:50%;
+      transform: translate(-50%, -50%); /* alinhar o canto*/
       background-size: cover;
       height: 640px;
       width: 317px;  
-    
-
-
 }
 
 img{ 
     width: 50px;
     height: 50px;
-   border-radius: 50%;
-   margin-top: 10px;
-   margin-right: 20px;
+   border-radius: 50%;   
+   
 }
-nav{ 
+
+nav{     
+    display: inline-block;
     text-align: right;
+    float: right;
+    margin: 10px;
+
+
+
+}
+ section{ 
+        background-image: url(EX\ CELULAR/tela-home.jpg);
+        background-size: cover;
+        width: 273px;
+        height: 481px;
+        margin-top: 81px;
+        margin-left: 22px;
+
+ } img:hover {
+    left: 50%;
+    border: 2px solid white;
+}
+
 
 }
