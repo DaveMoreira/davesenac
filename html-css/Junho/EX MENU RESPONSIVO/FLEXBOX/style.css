@@ -1,0 +1,22 @@
+*{
+   padding: 0px;
+   margin: 0px;
+
+}
+
+.conteiner{
+            background-color:gray ;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+}
+
+.itens{
+            background-color: white;
+            border: 0.1px solid gray;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            height: 100px;
+            
+}
