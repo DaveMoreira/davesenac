@@ -14,20 +14,21 @@
 .container{
    display: flex;
    background-image:  url(IMAGENS/granilite1.jpg);
-   gap: 10px;
+   gap: 3px;
    flex-wrap: wrap;
    justify-content: center;
    padding: 100px;
+   
 }
 .item{
-   width: 800px;
-   height: 800px;
-   background-color: aquamarine; 
+   width: 200px;
+   height: 200px;
+   
   
 }
 
 header{
-   height: 300px;
+   height: 50px;
    background-image:  url(IMAGENS/granilite1.jpg) ;
    opacity: 0.3;
    
@@ -35,21 +36,23 @@ header{
 
 }
 img{
-    width: 800px;
-    height: 800px;
+    width: 200px;
+    height:200px;
+    border-radius: 10px;
 }
 section{ background-color: white;
-   width: 1600px;
-   height: 800px;
+   width: 400px;
+   height: 200px;
 }
 
 section h1{ 
                      font-family: "Playwrite IS", cursive;
-                     font-size: 5em;
+                     font-size: 1em;
                      text-align: center;
-                     padding-top: 100px;
+                     padding-top: 0px;
                      background-image:  url(IMAGENS/granilite1.jpg);
-                     height: 800px;
+                     height: 200px;
+                     padding-top: 50px;
                      
 
 }
