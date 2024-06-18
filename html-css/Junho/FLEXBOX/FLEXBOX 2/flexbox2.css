@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{margin: 0px;
+  padding: 0px;  
+}
+
+
+
+
+
+
+
+body{
+    background-color: chocolate;
+    border: solid black 1px;
+}
+
+header{
+    background-color: white;
+    border: solid black 1px;
+}
+
+main{
+    background-color: darkcyan;
+    border: solid black 1px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 0px;
+
+
+}
+
+.menu{
+    height: 50px;
+
+}
+.informacoes{
+    background-color: #FFE561;
+    height: 50px;
+
+}
