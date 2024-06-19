@@ -94,3 +94,9 @@ border-radius: 10px;
 
 }
 
+.pacotes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+}
