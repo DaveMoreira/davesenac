@@ -11,7 +11,7 @@
     width: 100%;   /* para ocupar 100% do tamanho disponível*/
     height: 100%;
     display: grid;     /* sempre no pai-- colocar primeiro*/
-    grid-template-columns: 1fr 1fr  1fr;  /* quantidade de colunas -- duas colunas sendo que cada uma ocula 1 fração de espaço*/
+    grid-template-columns: 2fr 1fr  1fr;  /* quantidade de colunas -- duas colunas sendo que cada uma ocula 1 fração de espaço*/
 margin: 8px;
 gap: 8px;
 
