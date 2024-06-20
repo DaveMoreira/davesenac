@@ -1,61 +1,30 @@
-@charset "UFT-8";
-
-*{
-    margin: 0px;
-    padding: 0px;
+.container{
+    width: 100%;   /* para ocupar 100% do tamanho disponível*/
+    height: 100%;
 }
 
-/*
-    LEMBRETE:
-    grid-track: linha ou coluna inteira
-    grid-lines: linhas de divisão 
-    grid-area: área que será ocupada
-    gap: espaçamento
-*/
+div{ 
 
-.container{ /* DIV PAI */
-    display: grid;
-    grid-template-columns: repeat(5, 150px);
-    grid-template-rows: 200px 200px 200px 100px 100px;
-    /*grid-auto-rows: 200px*/
-    /*grid-gap: 10px;*/
-    /*grid-column-gap:10px;*/
-    /*grid-row-gap:10px;*/
-    
 
-    /* align-items: start; center, end; stretch */
-    /* justify-items: start;  center, end; */
-    
 }
 
-/* FILHOS */
-.header{
-    /*grid-column: 1 / 6;*/
-    grid-area: header;
-    background-color: gray;
-}
 
-.main{
-    /*grid-column: 4 / 6;*/
-    grid-area: main;
+.red{ 
     background-color: red;
+
 }
 
-.aside{
-    /*grid-column: 1 / 2; */
-    grid-area: aside;
-    background-color: yellow;
-}
-
-.footer{
-    /*grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 3;
-    grid-row-end: 6 ;*/
-    grid-area: footer;
+.blue{ 
     background-color: blue;
+    
 }
 
+.green{ 
+    background-color: green;
+    
+}
 
-/* justify-self:
-align-self: */
+.yellow{ 
+    background-color: yellow;
+    
+}
