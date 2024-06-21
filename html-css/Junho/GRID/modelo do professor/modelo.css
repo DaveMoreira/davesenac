@@ -1,36 +1,54 @@
-@charset "UFT-8";
+@charset "UTF-8";
 
 *{
+    padding:0px;
     margin: 0px;
-    padding: 0px;
-}
 
-.container{
-    display: grid;
-    grid-template-columns: repeat(4, 1FR) 2fr minmax(100px, 1fr);
-    grid-auto-rows: 200px;
 }
+    .container{
+     background-color: rgb(31, 34, 26);
+     border-radius: 5px solid black;
+     width: 100%;
+     height: 100vh;
+     display: grid;
+     
+     grid-template-areas: " menu menu menu menu menu menu menu menu menu menu menu menu " 
+     
 
-.header{
-    grid-column: 1 / -1;
-    background-color: gray;
-}
 
-.aside{
-    background-color: dimgray;
-    grid-column: 1/3;
-    grid-row: 2/4;
-    z-index: 1;
-}
 
-.main{
-    background-color: darkslategrey;
-    grid-column: 2/-1;
-    grid-row: 3/5;
-    z-index: 2;
-}
+     "aside  aside   null   null   main   main   main   main  main   main   main   main"
+     "aside  aside   null   null   main   main   main   main   main  main   main   main"
+     "footer footer footer footer footer footer footer footer footer footer footer footer";
+     
+    
+     
+     
+    
+     
 
-.footer{
-    background-color: dodgerblue;
-    grid-column: 1/-1;
-}
+
+    }
+    .menu{ width: 16850px;
+        height: 70px;
+        background-color: indigo;
+        grid-area: menu;
+    }
+
+    .conteudo{ width: 100%;
+
+
+
+        grid-area: conteudo;
+
+
+    }
+
+
+    .rodape{ width: 100%;
+             height: 50px;
+             background-color: lightcoral;
+             grid-area: rodape;
+             
+
+    }
