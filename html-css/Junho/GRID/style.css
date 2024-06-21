@@ -1,48 +1,31 @@
-*{padding: 0px;
-    margin: 0px;
-
-}
-
-
-
-
-
-.container{    /* elemento papai*/
-    width: 100%;   /* para ocupar 100% do tamanho disponível*/
-    height: 100%;
-    display: grid;     /* sempre no pai-- colocar primeiro*/
-    grid-template-columns: 2fr 1fr  1fr;  /* quantidade de colunas -- duas colunas sendo que cada uma ocula 1 fração de espaço*/
-margin: 8px;
-gap: 8px;
 
     
 
-}
-
-div{ 
-    height: 200px;
-    width: 200px;
+.grid-container{
+    display: grid;
+    grid-template-columns: 100% 30% 20%;
 
 
 }
+.img1{
+    width: 50%;
+    height: 400px;
+  
+}
 
 
-.red{ 
-    background-color: red;
+.img2{ 
+    width: 30%;
+    height: 400px;
 
 }
 
-.blue{ 
-    background-color: blue;
-    
+.img3{
+    width: 20%;
+    height: 400px;
+
+
 }
 
-.green{ 
-    background-color: green;
-    
-}
 
-.yellow{ 
-    background-color: yellow;
-    
-}
+.img4
