@@ -1,31 +1,39 @@
+.header{
+    grid-area: header;
+    background-color: antiquewhite;
+    height: 300px;
+   
+  }
+  .sidenav{
+    grid-area: sidenav;
+    background-color: aquamarine;
+  }
+  .content{
+    grid-area: content;
+    background-color: blue;
+  }
+  .footer{
+    grid-area: footer;
+    background-color: blueviolet;
+  }
 
-    
+  .container{
+	grid-template-areas: "header header " 
+						 "sidenav content" 
+						 "footer footer";
+                         display:
+                         grid;
+                         grid-template-columns:
+                         15% 70%;
+                         grid-template-rows:
+                         200px 3000px 100px;
+                         grid-template-areas:
+                         "header header " "sidenav content" "footer footer";
+                         font-size: 60px;
+                         }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: 100% 30% 20%;
+       .logo{ width: 200px;
+        height: 200px;
+       
 
-
-}
-.img1{
-    width: 50%;
-    height: 400px;
-  
-}
-
-
-.img2{ 
-    width: 30%;
-    height: 400px;
-
-}
-
-.img3{
-    width: 20%;
-    height: 400px;
-
-
-}
-
-
-.img4
+       }                  
