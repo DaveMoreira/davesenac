@@ -1,7 +1,8 @@
 .header{
     grid-area: header;
     background-color: antiquewhite;
-    height: 300px;
+    height: 200px;
+   
   }
   .sidenav{
     grid-area: sidenav;
@@ -20,13 +21,53 @@
 						 "sidenav content" 
 						 "footer footer";
                          display:grid;
-                         grid-template-columns:15% 90%;
+                         grid-template-columns:100%
                          grid-template-rows:200px 3000px 100px;
-                         grid-template-areas:"header header " "sidenav content" "footer footer";
+                         grid-template-areas:"header header  " "content content" "footer footer";
                          font-size: 60px;
                          }
-              .logo{ width: 200px;
-                      height: 200px;
-                    }           
+              
                     article{ padding: 200px 200px 200px 200px;
        }
+       .icones{ 
+        background-color: aqua;
+        display: inline;
+
+       }
+       
+      a{
+           font-size: 50px;
+           text-decoration: none;
+          letter-spacing: 2px;
+          color: rgb(77, 74, 74);
+          
+                }
+             
+                nav { display: inline flex;       /*logo e lista um do lado do outro*/
+                  justify-content: space-around; 
+                  align-items: center;
+                  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+                  font-weight: bold; 
+                  height: 8vh;
+            
+            }
+            .nav-list{
+              list-style: none;
+              display: inline flex;
+             margin-left: 1500px;
+              
+           
+              }
+              .nav-list li{
+                letter-spacing: 3px;
+                margin-left: 62px;
+}                
+a:hover{
+  background-color: rgba(119, 56, 14, 0.781);
+     }
+     nav img{ width: 250px;
+      height: 250px;
+      padding-left: 300px;
+      background-color: brown;
+  
+    }
