@@ -2,7 +2,6 @@
     grid-area: header;
     background-color: antiquewhite;
     height: 300px;
-   
   }
   .sidenav{
     grid-area: sidenav;
@@ -16,24 +15,18 @@
     grid-area: footer;
     background-color: blueviolet;
   }
-
   .container{
 	grid-template-areas: "header header " 
 						 "sidenav content" 
 						 "footer footer";
-                         display:
-                         grid;
-                         grid-template-columns:
-                         15% 70%;
-                         grid-template-rows:
-                         200px 3000px 100px;
-                         grid-template-areas:
-                         "header header " "sidenav content" "footer footer";
+                         display:grid;
+                         grid-template-columns:15% 90%;
+                         grid-template-rows:200px 3000px 100px;
+                         grid-template-areas:"header header " "sidenav content" "footer footer";
                          font-size: 60px;
                          }
-
-       .logo{ width: 200px;
-        height: 200px;
-       
-
-       }                  
+              .logo{ width: 200px;
+                      height: 200px;
+                    }           
+                    article{ padding: 200px 200px 200px 200px;
+       }
